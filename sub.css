@@ -32,7 +32,7 @@ a{
 
 /*header*/
 header{
-  box-shadow: 0 2px 4px rgba(17,31,144,0.4);
+  box-shadow: 0 2px 0px rgba(17,31,144,0.4);
   height: 142px;
   margin: 0 auto;
   position: relative;
@@ -257,7 +257,7 @@ color: white;
   text-align: center;
   padding-top: 140px;
   font-size: 40px;
-  text-shadow: 2px 3px 4px black;
+  text-shadow: 1px 2px 2px black;
 }
 #sub4_1 #main .lnb > .container > .aside > ul{
   width: 1636px;
