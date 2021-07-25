@@ -32,7 +32,7 @@ a{
 
 /*header*/
 header{
-  box-shadow: 0 2px 0px rgba(17,31,144,0.4);
+  box-shadow: 0 2px 4px rgba(17,31,144,0.4);
   height: 142px;
   margin: 0 auto;
   position: relative;
@@ -257,7 +257,7 @@ color: white;
   text-align: center;
   padding-top: 140px;
   font-size: 40px;
-  text-shadow: 1px 2px 2px black;
+  text-shadow: 2px 3px 4px black;
 }
 #sub4_1 #main .lnb > .container > .aside > ul{
   width: 1636px;
@@ -489,6 +489,7 @@ footer img.logo{
   color: var(--sub-color);
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-left: 30px;
 }
 .intro img{
  width: 1636px;
@@ -542,3 +543,6 @@ footer img.logo{
  .logocontent img{
    width: 1634px;
  }
+.sconcept{
+  margin-left: 30px;
+}
