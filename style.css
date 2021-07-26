@@ -171,6 +171,8 @@ header  nav .depth2 > li > a:hover {
   /* 메인 콘텐츠 영역 */
   #main {
     padding-top: 95px;
+      width: 1920px;
+    margin: 0 auto;
   }
    #main > h3{
     text-align: center;
