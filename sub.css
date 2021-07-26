@@ -438,6 +438,8 @@ footer {
   color:var(--main-color);
   margin: 0 auto;
   text-align: center;  
+   margin: 0 auto;
+  width: 1920px;
 }
 .footContainer > .sns > ul > li{
   display: inline-block;
