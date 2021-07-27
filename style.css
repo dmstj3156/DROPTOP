@@ -14,6 +14,7 @@ body{
   color: #2D2B2B;
   background-color: #FAF7F7;
   font-family: "Segoe UI",sans-serif;
+  margin: 0 auto;
 }
 ul {
     list-style-type: none;
@@ -60,32 +61,33 @@ a{
 .container{
     position: relative;
      margin: 0 auto;  
+     width: 1636px;
 }
 header{
-    
+   
     height: 142px;
     margin: 0 auto;
     position: relative;
     z-index: 999;
-    width: 1920px;
+    width: 1400px;
     
 }
 header h1{
     position: absolute;
-    left: 50px;
+    left: 10px;
     top: 10px;
     font-size: 20px;
 }
 header nav.gnb1{
     position: absolute;
-    right: 0px;
+    right:30px;
     top: 4px;
 }
 header nav.mainGnb{
     position: absolute;
-    right: -75px;
+    right: -40px;
     top: 70px;
-    z-index: 90;
+    z-index: 99;
     width: 1000px;
 }
  /*1단계 메뉴*/
@@ -94,7 +96,7 @@ header nav.mainGnb > ul > li{
     text-align: center;
     position: relative;
     font-weight: bold;
-    margin-right: 80px;
+    margin-right: 60px;
     
 }   
     
@@ -107,7 +109,7 @@ header nav.gnb1 > ul > li a,span.line1{
     font-size: 14px;
     font-weight: bold;
     float: left;
-    margin: 20px;
+    margin: 8px;
 }
 
 header nav > ul > li a,span{
@@ -128,11 +130,11 @@ header nav > ul > li:hover > .depth2{
 }
 */
 header  nav .depth2 > li{
-  width: 8em;
+  width: 10em;
+ padding: 15px;
 }
 header  nav .depth2 > li > a {
     display: block;
-    padding:10px;
     font-size: 16px;
     color: #2D2B2B;
 } /*자바로 할 경우*/
@@ -142,37 +144,44 @@ header  nav .depth2 > li > a:hover {
 }
 
 /*메인비쥬얼*/
+#mainvisual{
+  width: 1920px;
+  position: relative;
+  
+  margin: 0 auto;
+}
 .gallery{
     height: 750px;
-    width: 1920px;
     /* outline: 2px solid red; */
-    position: relative;
-    margin: 0 auto;
-  }
+   }
   
   .gallery  a > img {
     position: absolute;
-    width: 100%;
+    width: 1636px;
     height: 750px;
+    left: calc(50% - 1636px / 2);
   }
   #mainvisual > .container > .btn{
       border: none;
       background:none;
-      color: rgba(255,255,255,0.5);
-      font-size: 60px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 55px;
       position: absolute;
-      top: 43%;
-      
+      top: 48%;
+      width: 380px;
+  
+  
   }
   #mainvisual > .container > .btn-next{
       position: absolute;
-      right: 0;
+      right:0px;
   }
   /* 메인 콘텐츠 영역 */
   #main {
     padding-top: 95px;
-      width: 1920px;
+    width: 1400px;
     margin: 0 auto;
+    
   }
    #main > h3{
     text-align: center;
@@ -183,10 +192,11 @@ header  nav .depth2 > li > a:hover {
   #main .container {
     display: flex;
     justify-content: space-around;
-    width: 1230px;
+    width: 900px;
   }
   #main .container > .col{
     margin-right: 20px;
+   
   }
   #main .container > .col:last-child{
     margin: 0;
@@ -195,6 +205,9 @@ header  nav .depth2 > li > a:hover {
 #main .col a{
   color: #2D2B2B;
   
+}
+#main .col a img{
+  width: calc(1300px / 4);
 }
 #main .col h4 {
     font-size: 22px;
@@ -205,17 +218,17 @@ header  nav .depth2 > li > a:hover {
   margin-top: 135px;
   position: relative;
   height: 747px;
-  width: 1920px;
+  width: 1400px;
   margin: 135px auto;
 }
 #main .container2 > .circle{
-  margin-left: 140px;
+  
   position: absolute;
   top: 70px;
 }
 #main .container2 .contents{
  position: absolute;
- right: 290px;
+ right: 0px;
  text-align: center;
  top: 100px;
 }
@@ -237,47 +250,57 @@ header  nav .depth2 > li > a:hover {
   line-height: 1.6em;
 }
 #main .container2 .contents > p.box{
-  border: 2px solid var(--sub-color);
-  background-color: white;
+  
+  background-color: var(--main-color);
   width: 256px;
   height: 55px;
-  padding: 12px;
+  padding: 13px;
   font-size: 20px;
   font-weight: bold;
   margin-left: 130px;
   
 }
 #main .container2 .contents > p.box > a{
-  color: #2D2B2B;
+  color: white;
 }
 #main .container2 .contents > p.box:hover{
-  background-color: var(--sub-color);
+  background-color:rgba(13,55,140,0.8);
 }
 #main .container2 .contents > p.box:hover > a{
   color:white;
 }
 /*footer*/
 footer {
-  padding-top: 98px;
+  padding-top: 80px;
   font-size: 13px;
   color:var(--main-color);
   margin: 0 auto;
   text-align: center;
-   margin: 0 auto;
-  width: 1920px;
+  margin: 0 auto;
+  width: 1400px;
   
+}
+.footContainer {
+  padding-bottom: 30px;
+}
+.footContainer > .sns{
+  padding-bottom: 10px;
 }
 .footContainer > .sns > ul > li{
   display: inline-block;
 }
 .footContainer > .sns > ul > li > a{
   padding: 15px;
+  
+}
+.footContainer > .sns > ul > li > a img{
+  width: 32px;
 }
 .footContainer > ul.footerMenu  > li{
   display: inline-block;
   font-weight: bold;
   padding-bottom: 10px;
-  padding-top: 25px;
+
 }
 
 .footerMenu > li > a{
