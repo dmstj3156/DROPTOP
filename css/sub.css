@@ -193,7 +193,7 @@ header nav > ul > li a,span{
 }
 /*sub1-1 - 상단 사이드바*/
  #sub1_1 #main .image {
-  background-image: url(./images/banner/sub1_1.jpg);
+  background-image: url(../images/banner/sub1_1.jpg);
   height: 350px;
   color: white;
   text-align: center;
@@ -250,7 +250,7 @@ color: white;
 
   /*sub2_1 - 상단 사이드바*/
 #main .image {
-  background-image: url(./images/banner/sub2_1.png);
+  background-image: url(../images/banner/sub2_1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -323,7 +323,7 @@ color: white;
 }
  
   #sub4_1 #main .image {
-  background-image: url(./images/banner/sub4_1.jpg);
+  background-image: url(../images/banner/sub4_1.jpg);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
